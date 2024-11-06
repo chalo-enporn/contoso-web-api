@@ -6,7 +6,7 @@ const host = '0.0.0.0';
 const app = express();
 
 app.get('/',(req,res) => {
-    res.send(`Hello World - 2.0.0`);
+    res.send(`Hello World - 3.0.0`);
 });
 app.listen(port,host,() => {
     console.log(`Running On http://${host}:${port}`);
